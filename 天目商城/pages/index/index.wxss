@@ -1,0 +1,12 @@
+.swiper-item{
+    height: 150px;
+}
+.demo-text-1{
+    background-color: red;
+}
+.demo-text-2{
+    background-color: black;
+}
+.demo-text-3{
+    background-color: bisque;
+}

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/goods_list/goods_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/userinfo/userinfo",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天目商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FF2D4A",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home-o.png"
+      },
+      {
+         "pagePath": "pages/category/category",
+         "text": "分类",
+         "iconPath": "icon/category.png",
+         "selectedIconPath": "icon/category-o.png"
+       },
+       {
+          "pagePath": "pages/cart/cart",
+          "text": "购物车",
+          "iconPath": "icon/cart.png",
+          "selectedIconPath": "icon/cart-o.png"
+        },
+         {
+            "pagePath": "pages/userinfo/userinfo",
+            "text": "个人中心",
+            "iconPath": "icon/my.png",
+            "selectedIconPath": "icon/my-o.png"
+          }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

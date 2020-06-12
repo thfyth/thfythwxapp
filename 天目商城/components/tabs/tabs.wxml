@@ -1,0 +1,15 @@
+<!--components/tabs/tabs.wxml-->
+<view class="tabs-containt" hover-class="none" hover-stop-propagation="false">
+    <view class="tabs-list">
+        分类
+    </view>
+    <view class="tabs-list">
+        秒杀购
+    </view>
+    <view class="tabs-list">
+        超市购
+    </view>
+    <view class="tabs-list">
+        母婴品
+    </view>
+</view>

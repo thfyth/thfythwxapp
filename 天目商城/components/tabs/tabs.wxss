@@ -1,0 +1,9 @@
+/* components/tabs/tabs.wxss */
+.tabs-containt{
+    display: flex;
+}
+.tabs-list{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}

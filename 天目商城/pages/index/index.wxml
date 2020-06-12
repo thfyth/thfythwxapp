@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <!-- 轮播图 -->
+    <view class="swiper page-swiper" hover-class="none" hover-stop-propagation="false">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</view>
+<!-- <tabs></tabs> -->
