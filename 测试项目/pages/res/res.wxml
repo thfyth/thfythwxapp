@@ -1,0 +1,5 @@
+<!--pages/res/res.wxml-->
+<view class='studty_ft'>
+      <view class='weui-loading' wx:if="{{isShow}}"></view>
+      <view class='noData' wx:if="{{showLoading}}">{{loadingData}}</view>
+</view>

@@ -1,0 +1,41 @@
+/* components/tabs/tabs.wxss */
+.tab-h{
+    height: 57rpx;
+    width: 100%;
+    line-height: 51rpx;
+    background: white;
+    font-size: 16px;
+    white-space: nowrap;
+    z-index: 999;
+    margin-top: 20rpx;
+  }
+   
+  .swiper_tab_view{
+    width: 100%;
+    text-align: center;
+    line-height: 80rpx;
+  }
+   
+  .swiper-tab-list {
+    font-size: 30rpx;
+    display: inline-block;
+    width: 20%;
+    color: #777;
+  }
+   
+  .on {
+    color: #da7c0c;
+    border-bottom: 5rpx solid #da7c0c;
+  }
+   
+  .swiper-box {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+  .swiper-box view {
+    text-align: center;
+  }
+  
